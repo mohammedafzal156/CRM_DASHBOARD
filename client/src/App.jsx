@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AdminDashboard from "./dashboard/admindashboard"; 
-import EmployeeDashboard from "./employeedashboard/dash1";
-import Signup from "./Signup";
-import Login from "./login";
+import AdminDashboard from "./dashboard/admindashboard.jsx"; 
+import EmployeeDashboard from "./employeedashboard/dash1.jsx";
+import Signup from "./SignUp.jsx";
+import Login from "./login.jsx";
 
 function App() {
   return (
